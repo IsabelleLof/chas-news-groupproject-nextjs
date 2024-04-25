@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+body {
+  @apply dark:bg-black dark:text-white bg-white;
+}
